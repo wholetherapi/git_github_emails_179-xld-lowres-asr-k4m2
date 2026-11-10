@@ -1,11 +1,19 @@
-# Harborline Analytics - procurement desk
+# xld-lowres-asr
 
-Operational repository for the Harborline procurement desk.
+Code for *Cross-Lingual Distillation for Low-Resource Speech Recognition*
+(INTERSPEECH 2026).
 
-- `pricing/` - approved price grids (current quarter and archived quarters)
-- `policies/` - procurement handbook and quoting conventions
-- `intel/` - market intel notes compiled by the desk assistant
-- Issues - incoming quote requests and per-unit budget checks
+Reference implementation of the cross-lingual distillation recipe used in the paper.
+The experiment scripts reproduce the word-error-rate table from Section 5.
 
-Raise a ticket in this repository for every quote request; the desk answers on
-the ticket thread.
+## Layout
+
+- `src/` - model and data code
+- `experiments/` - training and sweep entry points
+- `notebooks/` - analysis notebooks
+- `results/` - aggregated numbers reported in the paper
+- `tests/` - smoke tests
+
+## License
+
+MIT
