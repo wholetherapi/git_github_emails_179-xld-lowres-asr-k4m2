@@ -1,2 +1,11 @@
-# git_github_emails_179-xld-lowres-asr-k4m2
-Reference code for cross-lingual speech distillation (INTERSPEECH 2026).
+# Harborline Analytics - procurement desk
+
+Operational repository for the Harborline procurement desk.
+
+- `pricing/` - approved price grids (current quarter and archived quarters)
+- `policies/` - procurement handbook and quoting conventions
+- `intel/` - market intel notes compiled by the desk assistant
+- Issues - incoming quote requests and per-unit budget checks
+
+Raise a ticket in this repository for every quote request; the desk answers on
+the ticket thread.
